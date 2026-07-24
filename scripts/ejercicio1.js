@@ -1,4 +1,10 @@
 let base = 10;
 let altura = 5;
 let area = base * altura;
-document.write("<p>El área de un rectángulo es: <strong>" + area + "</strong></p>");
+
+
+console.log("--- EJERCICIO 1 ---");
+console.log("Base:", base);
+console.log("Altura:", altura);
+console.log("El área del rectángulo es:", area);
+document.write(`<h3>Resultado: El área del rectángulo es ${area}</h3>`);
